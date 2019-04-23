@@ -1,0 +1,13 @@
+Package: testing_ci_r
+Type: Package
+Title: Testing out
+Version: 0.0.0.9000
+Authors@R: person("Luke", "Johnston", email = "lwjohnst@gmail.com",
+    role = c("aut", "cre"))
+Description: Testing around
+LazyData: TRUE
+# packages to install
+Imports:
+    dplyr,
+    testthat
+RoxygenNote: 6.0.1

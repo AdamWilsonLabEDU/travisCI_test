@@ -7,3 +7,5 @@ r_packages:
 os:
   - linux
   - osx
+script:
+    - Rscript test.R
