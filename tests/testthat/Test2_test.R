@@ -1,22 +1,32 @@
 library(testthat)
 library(proto)
-source("Test2.R")
+library(vdiffr)
+#source("Assignment01.R")
 
 # p=ggplot(iris,aes(x=Petal.Length))+
 #   geom_histogram()
 
 # p2=ggplot(iris,aes(x=Petal.Length))+
 #   geom_point()
-# 
+#
 # saveRDS(p1,file="junk.rda")
 # test_that("ggplot is correct", {
 #   expect_known_(p2, file = "junk.rda")
 # })
-# 
-test_that("Petal mean is correct",{
+#
+#
+#
+#vdiffr::expect_doppelganger("ggplot2 histogram", p_histogram)
+#
+
+context("Mean")
+
+test_that("petal_mean is correct",{
+  expect_true(exists("petal_mean"))
   expect_equal(petal_mean, 3.758)
 })
 
+context("Histograms")
 test_that("Plot data is correct",{
   expect_equal(p_histogram$data, iris)
 })
