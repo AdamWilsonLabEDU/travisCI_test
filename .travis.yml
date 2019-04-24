@@ -9,3 +9,4 @@ os:
   - osx
 script:
     - Rscript test.R
+    - Rscript Test2_test.R
