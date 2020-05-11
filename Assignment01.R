@@ -8,5 +8,5 @@ p_histogram=ggplot(iris,aes(x=Petal.Length))+
   geom_histogram()
 
 if(F) 
-  test_file("tests/testthat/Test2_test.R")
+  test_file("tests/testthat/test.R","summary")
 

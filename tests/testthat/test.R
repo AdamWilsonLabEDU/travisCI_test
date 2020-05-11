@@ -1,7 +1,7 @@
 library(testthat)
 library(proto)
 library(vdiffr)
-#source("Assignment01.R")
+source("../../Assignment01.R")
 
 # p=ggplot(iris,aes(x=Petal.Length))+
 #   geom_histogram()
