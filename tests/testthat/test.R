@@ -1,7 +1,7 @@
 library(testthat)
 library(proto)
 library(vdiffr)
-source("../../Assignment01.R")
+source("Assignment01.R")
 
 
 #################
@@ -12,7 +12,6 @@ p=ggplot(iris,aes(x=Petal.Length))+
  
 vdiffr::expect_doppelganger("ggplot_p2", p_histogram)
  
-
 #################
 context("Mean")
 
