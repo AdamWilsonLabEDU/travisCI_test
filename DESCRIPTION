@@ -1,12 +1,12 @@
-Package: testing_ci_r
-Type: Package
+Package: Testing use of Travis-CI for automated testing of assignments
 Title: Testing out
 Version: 0.0.0.9000
-Authors@R: person("Luke", "Johnston", email = "lwjohnst@gmail.com",
+Authors@R: person("Adam", "Wilson", email = "adamw@buffalo.edu",
     role = c("aut", "cre"))
-Description: Testing around
 LazyData: TRUE
 Imports:
     dplyr,
-    testthat
+    testthat,
+    proto,
+    vdiffr
 RoxygenNote: 6.0.1
