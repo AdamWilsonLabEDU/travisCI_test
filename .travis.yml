@@ -8,4 +8,4 @@ os:
   - linux
   - osx
 script:
-    - Rscript tests/testthat/test.R
+    - Rscript tests/testthat/test_from_github.R
